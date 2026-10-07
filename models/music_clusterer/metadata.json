@@ -1,0 +1,137 @@
+{
+  "trained_on": "2026-10-07",
+  "dataset": "maharshipandya/spotify-tracks-dataset",
+  "n_tracks": 89583,
+  "features": [
+    "danceability",
+    "energy",
+    "loudness",
+    "acousticness",
+    "valence",
+    "tempo"
+  ],
+  "n_clusters": 8,
+  "k_scan": [
+    {
+      "k": 2,
+      "inertia": 370140.67031658813,
+      "silhouette": 0.32235830102610724
+    },
+    {
+      "k": 3,
+      "inertia": 303553.6593231683,
+      "silhouette": 0.2292370186701797
+    },
+    {
+      "k": 4,
+      "inertia": 266731.4716357497,
+      "silhouette": 0.21762238439390652
+    },
+    {
+      "k": 5,
+      "inertia": 240973.9294614899,
+      "silhouette": 0.2041501400340868
+    },
+    {
+      "k": 6,
+      "inertia": 225552.5369478045,
+      "silhouette": 0.1854848589712113
+    },
+    {
+      "k": 7,
+      "inertia": 210964.6313835695,
+      "silhouette": 0.18012345164927795
+    },
+    {
+      "k": 8,
+      "inertia": 197758.7746973007,
+      "silhouette": 0.18539731994776815
+    },
+    {
+      "k": 9,
+      "inertia": 186730.8624045257,
+      "silhouette": 0.1818110115186223
+    },
+    {
+      "k": 10,
+      "inertia": 179564.69991116246,
+      "silhouette": 0.17956333027175483
+    }
+  ],
+  "cluster_sizes": {
+    "0": 11255,
+    "1": 12539,
+    "2": 12375,
+    "3": 17564,
+    "4": 9453,
+    "5": 9248,
+    "6": 11932,
+    "7": 5217
+  },
+  "centroids": {
+    "0": {
+      "danceability": 0.6518,
+      "energy": 0.5024,
+      "loudness": -9.4726,
+      "acousticness": 0.6526,
+      "valence": 0.6612,
+      "tempo": 106.9413
+    },
+    "1": {
+      "danceability": 0.6912,
+      "energy": 0.6384,
+      "loudness": -8.1241,
+      "acousticness": 0.1334,
+      "valence": 0.3165,
+      "tempo": 119.8576
+    },
+    "2": {
+      "danceability": 0.4748,
+      "energy": 0.334,
+      "loudness": -11.7845,
+      "acousticness": 0.7479,
+      "valence": 0.2849,
+      "tempo": 117.172
+    },
+    "3": {
+      "danceability": 0.7129,
+      "energy": 0.7806,
+      "loudness": -5.9989,
+      "acousticness": 0.1395,
+      "valence": 0.7431,
+      "tempo": 114.0256
+    },
+    "4": {
+      "danceability": 0.4306,
+      "energy": 0.8129,
+      "loudness": -6.0323,
+      "acousticness": 0.0957,
+      "valence": 0.3242,
+      "tempo": 97.5874
+    },
+    "5": {
+      "danceability": 0.5766,
+      "energy": 0.7508,
+      "loudness": -6.3605,
+      "acousticness": 0.2614,
+      "valence": 0.7204,
+      "tempo": 162.4846
+    },
+    "6": {
+      "danceability": 0.4245,
+      "energy": 0.8453,
+      "loudness": -5.3159,
+      "acousticness": 0.06,
+      "valence": 0.3002,
+      "tempo": 154.8868
+    },
+    "7": {
+      "danceability": 0.3038,
+      "energy": 0.1339,
+      "loudness": -23.0627,
+      "acousticness": 0.8867,
+      "valence": 0.1602,
+      "tempo": 99.7803
+    }
+  }
+}

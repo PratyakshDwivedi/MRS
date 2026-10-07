@@ -1,0 +1,28 @@
+# Secrets / environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Raw datasets (downloaded via scripts/prepare_data.py)
+data/raw/
+
+# OS / editor / tooling
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+*.swp
